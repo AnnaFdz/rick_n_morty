@@ -21,7 +21,7 @@ function App() {
 
   return (
     <div>
-       { location.pathname == "/user-form" ? <Navbar2/> : null
+       { location.pathname === "/user-form" ? <Navbar2/> : null
        }
        { location.pathname.includes("/detail/") ? <Navbar2/> : null
        }

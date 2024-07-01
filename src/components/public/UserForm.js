@@ -28,7 +28,7 @@ const UserForm = () => {
     const { password } = form; 
     setAreEquals(password === passwordConfirmation);
     validPass()
-  }, [passwordConfirmation, pass]);
+   }, [passwordConfirmation, pass]);
 
   const handleSubmit = (e) => {
    
