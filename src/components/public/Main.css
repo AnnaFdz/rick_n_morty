@@ -1,0 +1,98 @@
+
+body {
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: 'Courier New', monospace;
+  }
+  /* .btn{
+    padding: 0%;
+  } */
+
+  .button-color{
+    background-color: #39FF14;
+    color: #006400;
+    
+  }
+  /* .btn :hover{
+    background-color: yellow;
+    color: #006400;
+    
+  } */
+  .fondo-principal{
+    background-color: #F8FE76;
+    color: #000000;
+  }
+  .bg-body-tertiary {
+    --bs-bg-opacity: 0;
+    /* --bs-bg-color:#F8FE76; */
+  }
+  /* .bg-body-tertiary{
+    
+    background-color:#F8FE76;
+  } */
+.imagen{
+    width: 350px;
+}
+.colorbk{
+    background-color: #5F9EA0
+  }
+ 
+  /* Estilos del contenido principal */
+  .contenido {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* margin-top: 20px; */
+  }
+  .card-color{
+    background-color: #F29901;
+  }
+ 
+  .imgDetalle{
+   width: 150px;
+   
+   justify-content: baseline;
+  }
+  .detallePersonaje{
+    justify-content: center;
+    color: white;
+    font-weight: bolder;
+  }
+  .card h3{
+    font-size: 20px;
+    /* color: #F29901; */
+    color: #006400;
+    font-weight: bolder;
+    
+  }
+  .color-r{
+    color:rgb(74, 183, 247)
+  }
+  .bs-btn-hover-border{
+    background-color: yellow;
+    color: #006400;
+  }
+  .bs-btn-hover-bg{
+background-color: yellow;
+    color: #006400;
+  }
+
+  .card {
+    /* background-color: #006400; */
+    background-color: #B2DAE4;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    color: #F29901;
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+ 
+  }
+  
+  /* Footer */
+  .pie-de-pagina {
+    background-color: #5F9EA0;
+    padding: 10px;
+    text-align: center;
+  }
+  
