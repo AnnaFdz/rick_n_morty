@@ -40,9 +40,9 @@ const Navbar2 = () => {
           <Buscar setBuscar={setBuscar}/>  */}
 
           <div className="text-end">
-            <button type="button" className="btn btn-outline-light me-2">
-              Login
-            </button>
+            <Link to="/login-form" className="btn btn-outline-light me-2">
+                Login
+              </Link>
             <Link to="/user-form" className="btn btn-warning">
               Sign-up
             </Link>

@@ -6,6 +6,7 @@ import RickAndMortyService from "../../services/RickAndMorty.service";
 
 
 
+
 const Navbar = ({setBuscar}) => {
  
   return (
@@ -45,9 +46,12 @@ const Navbar = ({setBuscar}) => {
             <Buscar setBuscar={setBuscar}/> 
 
             <div className="text-end">
-              <button type="button" className="btn btn-outline-light me-2">
+              {/* <button type="button" className="btn btn-outline-light me-2">
                 Login
-              </button>
+              </button> */}
+              <Link to="/login-form" className="btn btn-outline-light me-2">
+                Login
+              </Link>
               <Link to="/user-form" className="btn btn-warning">
                 Sign-up
               </Link>

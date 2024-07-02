@@ -60,14 +60,25 @@ const Cards = ({ buscar }) => {
         <Buscar setBuscar={setBuscar} setPage={setPage}/>
 
         </div> */}
-      <div className="contenido ">
-        <div>
-          <Filtros setStatus={setStatus} setGender={setGender}status={status} gender={gender} species={species} setSpecies={setSpecies}/>
-        </div>
-        <div>
+      <div className="contenido">
+      <div className="contenidoF" >
+        <h2>Filters :</h2>
+      
+      </div>
+      
+          <Filtros 
+            setStatus={setStatus} 
+            setGender={setGender}status={status} 
+            gender={gender} 
+            species={species} 
+            setSpecies={setSpecies}
+          />
+        
+        
+      </div>
+      <div className="contenido">
           <Paginacion pageChange={handleNext} pagePrev={handlePrev} />
         </div>
-      </div>
       <div className="fondo-principal">
         {mensajeError&&<p>{mensajeError} </p>}
         {!mensajeError&&(

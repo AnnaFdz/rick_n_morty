@@ -44,6 +44,15 @@ body {
     justify-content: center;
     /* margin-top: 20px; */
   }
+  .contenidoF {
+    
+    display: flex;
+    flex-wrap: wrap;
+    
+    flex-direction: row;
+    
+    /* margin-top: 20px; */
+  }
   .card-color{
     background-color: #F29901;
   }

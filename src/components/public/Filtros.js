@@ -32,15 +32,19 @@ const Filtros = ({setStatus, setGender, status, gender, species, setSpecies}) =>
       };
   return (
 
-    <div>
-      <select onChange={handleStatus} class="form-select"  aria-label="Default select example" value={status}>
+    <div  className="contenidoF">
+      
+      <div style={{justifyContent: 'start'}}>
+      <select onChange={handleStatus} className="form-select"  aria-label="Default select example" value={status}>
       
         <option value=""> status</option>
         <option value="alive">alive</option>
         <option value="dead">dead</option>
         <option value="unknown">unknown</option>
       </select>
-      <select onChange={handleSpecies} class="form-select"  aria-label="Default select example" value ={species}>
+      </div>
+      <div style={{justifyContent: 'start'}}>
+      <select onChange={handleSpecies} className="form-select"  aria-label="Default select example" value ={species}>
       <option value=""> species</option>
         <option value="Human">Human</option>
         <option value="Alien">Alien</option>
@@ -56,16 +60,16 @@ const Filtros = ({setStatus, setGender, status, gender, species, setSpecies}) =>
    
        
       </select>
-      <select onChange={handleGender} class="form-select"  aria-label="Default select example"  value={gender}>
+      </div>
+      <div style={{justifyContent: 'start'}}>
+      <select onChange={handleGender} className="form-select"  aria-label="Default select example"  value={gender}>
         <option value="">gender</option>
         <option value="female">female</option>
         <option value="genderless">genderless</option>
         <option value="unknown">unknown</option>
       </select>
-      <div>
-      <button type="button" class="btn btn-success" onClick={ handleReset }>Clear</button>
       </div>
-      
+      <button  type="button" className="btn btn-success" onClick={ handleReset }>Clear Filter</button>
     </div>
     
   );

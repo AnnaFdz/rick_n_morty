@@ -8,6 +8,7 @@ import {  Route, Routes, useLocation } from "react-router-dom";
 import Navbar from "./components/public/Navbar";
 import Detail from "./components/public/Detail";
 import UserForm from "./components/public/UserForm";
+import LoginForm from "./components/public/LoginForm"
 
 import Navbar2 from "./components/public/Navbar2";
 
@@ -30,6 +31,7 @@ function App() {
           <Route exact path="/" element={<Main />} />
           <Route  path="/detail/:id" element={<Detail />} />
           <Route exact path="/user-form" element={<UserForm />} />
+          <Route exact path="/login-form" element={<LoginForm />} />
         </Routes>
       
 
