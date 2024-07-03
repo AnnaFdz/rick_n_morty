@@ -30,7 +30,7 @@ const Cards = ({ buscar }) => {
         }
       })
       .catch((error) => console.log(error));
-    console.log(buscar);
+    // console.log(buscar);
   }, [page, buscar, status, gender, species]);
   const cardsList = Array.isArray(personajes)
     ? personajes.map((p) => <Card personaje={p} key={p.id} />)

@@ -12,7 +12,7 @@ const Card = ({personaje}) => {
           height="225" src={personaje.image} alt="imagen"/>
          
        
-        <h3 clasName="mb-0 text-dark "> {personaje.name}</h3>
+        <h3 className="mb-0 text-dark "> {personaje.name}</h3>
         <div className="card-body">
           <p className="card-text">
             Acceder a info sobre el personaje

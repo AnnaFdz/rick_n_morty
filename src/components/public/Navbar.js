@@ -14,14 +14,14 @@ const Navbar = ({setBuscar}) => {
       <header className=" text-white colorbk ">
         <div className="container">
           <div className="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start navbar">
-            <spam>
+            <span>
               <img
                 className="App-logo"
                 src="pngwing.com (2).png"
                 alt="reactLogo"
                 style={{ height: "80px", width: "80px" }}
               />
-            </spam>
+            </span>
             <ul className="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
               <li>
                 <Link to="/" className="nav-link px-2 text-secondary">
